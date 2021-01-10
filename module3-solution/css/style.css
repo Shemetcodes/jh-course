@@ -1,5 +1,3 @@
-/** Desktop (md) **/
-
-/** Tablet (sm) **/
-
-/** Mobile (xs) **/
+body {
+    background-color: aqua;
+}
