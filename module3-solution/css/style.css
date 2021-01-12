@@ -1,3 +1,110 @@
 body {
-    background-color: aqua;
+    background-color: beige;
 }
+
+body > h1 {
+    color: #333;
+}
+
+section.container{
+    background-color: rgb(255, 255, 247);
+    margin: 5px;
+    border: 1px solid #333;
+}
+
+section > div {
+    text-align: justify;
+}
+
+.Sushi {
+    background-color: #ff604b;
+    font-weight: bold;
+    color:  #F4F8F7;
+}
+
+.Chicken {
+    background-color: #fc9140;
+    font-weight: bold;
+    color: #F4F8F7;
+}
+
+.Beef {
+    background-color:#ffcb3c;
+    font-weight: bold;
+    color: #F4F8F7;
+}
+
+section > h3 {
+    margin-top: 0;
+    margin-right: -15px;
+    margin-left: -15px;
+    border: 1px solid #333;
+}
+
+a {
+    color: #333;
+}
+
+/* NAVBAR */
+#header-nav {
+    background-color: #3C4A4D;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #333;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+    height: 60px;
+}
+
+.navbar-brand > h1 {
+    position: absolute;
+    color: beige;
+    margin-top: 0;
+    margin-bottom: 0;
+    left: 15px;
+    font-weight: bold;
+    line-height: 0.75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin: auto;
+    border: 0;
+}
+
+#nav-list a {
+    color: rgb(29, 29, 29);
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background:#F4F8F7;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+#collapsable-nav a { 
+    font-size: 1.2em;
+}
+
+#collapsable-nav a span { 
+    font-size: 1em;
+    margin-right: 5px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid rgb(29, 29, 29);
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+/* END OF NAVBAR */
